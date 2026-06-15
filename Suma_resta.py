@@ -24,7 +24,7 @@ tk.Entry(formulario, textvariable=numero1, width=50).pack(pady=5)
 tk.Label(formulario, text="Numero2:").pack(pady=10)
 tk.Entry(formulario, textvariable=numero2, width=50).pack(pady=5)
 
-tk.Button(formulario, text="Suma",command=suma, bg="blue",fg="white").pack(pady=20)
+tk.Button(formulario, text="Suma",command=suma, bg="red",fg="white").pack(pady=20)
 
 resultado = tk.Label(formulario,  text="Resultado: ")
 resultado.pack(pady=20)
